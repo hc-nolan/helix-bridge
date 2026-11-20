@@ -102,3 +102,7 @@ Other recipes (`just --list`):
 Not affiliated with or endorsed by Line 6 or Yamaha Guitar Group. HX Edit and
 Helix are trademarks of their respective owners. This repository contains no
 Line 6 code or binaries. Use at your own risk.
+
+## License
+
+Public domain ([Unlicense](LICENSE)). Covers only the code in this repository.
