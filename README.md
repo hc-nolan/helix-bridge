@@ -91,6 +91,21 @@ Other recipes (`just --list`):
 - Bulk OUT transfers are padded to a multiple of 4 bytes, like the real driver
   does. Without the padding the device stalls.
 
+## AI usage
+
+An AI coding assistant (Anthropic's Claude Code) did almost all of this work:
+reverse engineering HX Edit's Interposer interface, writing the DLL and the
+daemon, and debugging the USB handshake. I directed the work and tested it on
+my own Helix LT.
+
+What that means for you:
+
+- It works on my machine. It hasn't been reviewed by anyone who knows the Helix
+  protocol well.
+- Read the code before you trust it with your device, and back up your presets.
+- If something breaks, I may not be able to fix it, but I will try. Issues and
+  PRs are welcome anyway.
+
 ## Credits
 
 - [kempline/helix_usb](https://github.com/kempline/helix_usb) for documenting
