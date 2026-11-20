@@ -1,0 +1,3 @@
+# Let the logged-in user access Line 6 devices (needed by helixd.py).
+# Install: sudo cp udev/50-line6-helix.rules /etc/udev/rules.d/ && sudo udevadm control --reload && sudo udevadm trigger
+SUBSYSTEM=="usb", ATTR{idVendor}=="0e41", TAG+="uaccess"

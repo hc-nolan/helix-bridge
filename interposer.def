@@ -1,0 +1,11 @@
+LIBRARY Interposer.dll
+EXPORTS
+    InterposerInit
+    InterposerCleanup
+    InterposerGetDescriptorCount
+    InterposerGetDescriptors
+    InterposerRegisterCallback
+    InterposerOpenPipe
+    InterposerClosePipe
+    InterposerGetApplicationId
+    InterposerMessage
